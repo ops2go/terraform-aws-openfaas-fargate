@@ -7,7 +7,7 @@ variable "vpc_cidr_block" {
 
 variable "azs" {
     type    = "list"
-    default = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+    default = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
 
 variable "external_subnets" {
